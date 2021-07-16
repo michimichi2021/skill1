@@ -437,7 +437,6 @@ header{
 
 .main-visual{
   background-image: url(img/code.png);
-  width:90%;
   height:650px;
   background-size: cover;
   background-position: center; /* 背景画像を中央に配置 */
@@ -451,7 +450,91 @@ header{
   font-size:18px;
 }
 
+.Portfolio-container{
+  width:90%;
+}
 
+.photo{
+  flex-flow: column;
+}
+
+.photo2{
+  margin:0 auto;
+  margin-bottom:10px;
+}
+
+.photo4{
+  margin:0 auto;
+  margin-bottom:10px;
+}
+
+.photo6{
+  margin:0 auto;
+}
+
+.photo1{
+  display:none;
+}
+
+.photo3{
+  display:none;
+}
+
+.photo5{
+  display:none;
+}
+
+.Feature-container{
+  width:90%;
+  text-align: center;
+}
+
+.Strength{
+  width:90%;
+
+}
+
+.Strength-container{
+  flex-flow: column;
+  margin-left:45px;
+}
+
+.Profile-container{
+  width:90%;
+}
+
+.man-container{
+  flex-flow: column;
+}
+
+.man-image{
+  margin:0 auto;
+}
+
+.man-text{
+  margin:0 auto;
+}
+
+.man-text h3{
+  text-align:center;
+  padding-top:20px;
+}
+
+.Contact-container{
+  width:90%;
+}
+
+.Contact-low-wrapper{
+  flex-flow: column;
+}
+
+.Contact-low-wrapper h3{
+  padding-bottom:5px;
+}
+
+.Contact-low-wrapper p{
+  padding-bottom:20px;
+}
 
 }
 
